@@ -1,10 +1,18 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
     
+}
+.Primer-titulo{
+    color: black;
 }
 #menu-principal{
     display: inline-block;
+    
 }
+
+    
+    
 
 .icono{
     font-size: 10000;
@@ -14,9 +22,11 @@ body{
 
 
 .menu{
+    box-shadow: 0.5px 1px 5px 0.5px;
     display: inline-table;
     text-align: center;
     width: 160px;
+    border-radius: 5px;
     border: 0.5px solid black;
     margin: 5px 10px 10px 5px;
     padding: 5px;
@@ -34,6 +44,8 @@ a {
 
 footer{
     text-align: center;
-    margin: 158px;
+    width: 100%;
+    position: absolute;
+    
 }
 
