@@ -6,6 +6,26 @@ body{
 .Primer-titulo{
     color: black;
 }
+i.{
+    float: left;
+
+}
+.menu-principal
+ul,li{
+    box-shadow: 0.5px 1px 5px 0.5px;
+    display: inline-table;
+
+    width: 160px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    margin: 5px 10px 10px 5px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: rgb(240, 42, 42);
+    display: inline-block;
+    
+     
+}
 #menu-principal{
     display: inline-block;
     
@@ -24,7 +44,7 @@ body{
 .menu{
     box-shadow: 0.5px 1px 5px 0.5px;
     display: inline-table;
-    text-align: center;
+
     width: 160px;
     border-radius: 5px;
     border: 0.5px solid black;
