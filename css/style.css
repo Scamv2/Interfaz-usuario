@@ -10,8 +10,14 @@ body{
 }
 
 .Primer-titulo{
+    background-color: rgb(23, 230, 202);
+    box-shadow: 0.5px 1px 5px 0.5px;
     color: rgb(0, 0, 0);
     text-align: center;
+    margin: 5px 5px 5px 5px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
 }
 .i{
     float: left;
@@ -37,7 +43,8 @@ body{
 
 
 
-.menu{
+.menus{
+    
     box-shadow: 0.5px 1px 5px 0.5px;
     display: inline-table;
     width: 160px;
@@ -47,10 +54,24 @@ body{
     padding: 5px;
     font-size: 14px;
     background-color: rgb(23, 230, 202);
+    
+    
 
     
     
     
+}
+
+.menu2{
+    box-shadow: 0.5px 1px 5px 0.5px;
+    display: inline-table;
+    width: 160px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    margin: 5px 10px 10px 5px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: rgb(23, 230, 202);
 }
 
 a {
@@ -64,5 +85,8 @@ footer{
     width: 100%;
     position: absolute;
     
+}
+nav a :hover{
+    color: white;
 }
 
