@@ -30,7 +30,7 @@ body{
     border-radius: 5px;
     padding: 5px;
     width: 90%;
-    height: 220px;
+    height: 160px;
 }
 .contenedor{
     width: 90%;
@@ -62,10 +62,20 @@ h2{
 
 
 }
+ul.menus{
+    width: 99.2%;
+    height: 20px;
+    display: inline-table;
+    margin: 65px auto;
+    text-align: center;
+    border: 0.5px solid black;
+}
 #menu-principal{
     text-align: center;
     width: 90%;
     margin: 0 auto;
+    
+    
     
     
 }
@@ -109,7 +119,7 @@ h2{
     width: 160px;
     border-radius: 5px;
     border: 0.5px solid black;
-    margin: 0 auto;
+    margin: 15px auto;
     padding: 5px;
     font-size: 14px;
     background-color: rgb(23, 230, 202);
