@@ -3,7 +3,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(0, 0, 0);
+    background-color:white;
     
 }
 
@@ -155,3 +155,12 @@ nav a :hover{
     
 
 }
+th{
+    background-color: yellow;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 0 auto;
+  }
